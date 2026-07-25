@@ -1,19 +1,41 @@
 aid: creopop
 name: Creopop
-description: Creopop is a company surfaced as a portfolio company of 500-global and added to the API Evangelist
-  network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: CreoPop is a consumer 3D-printing pen that lets you draw three-dimensional objects freehand.
+  Unlike filament 3D pens it has no hot parts or melting plastic; instead it uses photopolymer "cool ink"
+  cartridges that are solidified by built-in LEDs, and it is battery operated and charged over mini-USB. The
+  product line includes specialty inks (elastic, magnetic, glow-in-the-dark, aromatic, temperature-sensitive,
+  and electrically conductive). CreoPop is a hardware/consumer-electronics brand with a marketing and
+  direct-to-consumer e-commerce website; it publishes no public API, developer portal, or documentation.
 url: https://raw.githubusercontent.com/api-evangelist/creopop/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
 - 500-global
 x-tier: stub
-x-tier-reason: portfolio-lead
+x-tier-reason: no-public-api
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-18'
+image: https://creopop.com/favicon.png
 tags:
 - Company
+- 3D Printing
+- 3D Pen
+- Hardware
+- Consumer Electronics
+- Photopolymer
+- eCommerce
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -23,3 +45,8 @@ maintainers:
 common:
 - type: Website
   url: https://creopop.com
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
